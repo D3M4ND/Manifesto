@@ -1,0 +1,20 @@
+body {
+    font-family: 'Hack';
+}
+
+.btn-custom {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0; /* This removes the border-radius */
+  }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds some space between buttons */
+  }
+
+#dyn {
+    color: white; /* Explicitly sets the color of the PRETENDI text to white */
+  }
