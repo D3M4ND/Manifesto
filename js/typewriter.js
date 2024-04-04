@@ -1,7 +1,9 @@
 const phrases = [
     "IL FUTURO",
-    "LE TECNOLOGIE LIBERE",
-    "LA LIBERTÀ DI ESPRESSIONE"
+    "LA CULTURA",
+    "L'ANONIMATO",
+    "UN TECH LIBERO",
+    "CON NOI"
   ];
   
   let currentPhraseIndex = 0;
