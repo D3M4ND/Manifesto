@@ -1,5 +1,7 @@
-body {
+body, html {
     font-family: 'Hack';
+    height: 100%;
+    margin: 0;
 }
 
 .btn-custom {
@@ -19,21 +21,19 @@ body {
     color: white; /* Explicitly sets the color of the PRETENDI text to white */
   }
 
-
-  body, html {
-    height: 100%;
-    margin: 0;
-  }
-
-  .content-wrap {
+.content-wrap {
     min-height: calc(100% - 56px); /* Adjust the 56px based on your footer's height */
     padding-bottom: 56px; /* Same as footer height */
   }
 
-  footer {
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 56px; /* Set your footer's height */
   }
 
+.logo {
+    width:150px;
+    height:150px;   
+}

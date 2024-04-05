@@ -1,0 +1,25 @@
+body {
+    font-family: 'Hack'; 
+    background-color: #000; 
+    color: #FFFF; 
+    margin-top: 50px; 
+    
+}
+.manifesto-container {
+    padding: 20px;
+    font-weight: bold;	    
+}
+.manifesto-text {
+    white-space: pre-wrap; 
+    font-size: px;
+
+}
+
+.mb-4 {
+    text-align: center;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
