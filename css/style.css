@@ -1,39 +1,45 @@
 body, html {
-    font-family: 'Hack';
-    height: 100%;
-    margin: 0;
+  font-family: 'Hack';
+  height: 100%;
+  margin: 0;
 }
 
 .btn-custom {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 0; /* This removes the border-radius */
-  }
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0;
+}
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Adds some space between buttons */
-  }
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
 #dyn {
-    color: white; /* Explicitly sets the color of the PRETENDI text to white */
-  }
+  color: white;
+}
 
 .content-wrap {
-    min-height: calc(100% - 56px); /* Adjust the 56px based on your footer's height */
-    padding-bottom: 56px; /* Same as footer height */
-  }
+  padding-top: 30px; /* Add some space on top */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 56px); /* This will make sure your content is centered and does not overlap with the footer */
+  padding-bottom: 30px; /* Adjust this value based on your needs */
+}
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 56px; /* Set your footer's height */
-  }
+  position: relative; /* Changed to relative for demonstration. Adjust based on your layout needs */
+  width: 100%;
+  height: 56px; /* Adjust this height as per your footer content */
+}
 
 .logo {
-    width:150px;
-    height:150px;   
+  margin-top: 10px; /* Adjusted for spacing */
+  margin-bottom: 20px; /* Adds space between the logo and the next element */
+  width: 150px;
+  height: 150px;
 }
